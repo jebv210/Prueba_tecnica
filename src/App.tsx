@@ -1,26 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import Registro from './views/createRegister';
+import Form from './views/createUser';
+import GetRegistro from './views/getRegistro';
+import GetAllRegistros from './views/getRegistros';
+import GetUserId from './views/getUserId';
+import GetAllUsers from './views/getUsers';
+import Login from './views/login';
+import { UpdatePassword } from './views/updateUser';
 
-function App() {
+
+function App() {//Funcion para las direcciones de cada archivo con su url para identificar
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Login />} />
+      <Route path="/registro-Empleado/:id" element={<Registro />} />
+      <Route path="/ver-datos-registro/:id" element={<GetRegistro />} />
+      <Route path="/ver-registros" element={<GetAllRegistros />} />
+      <Route path="/ver-Usuarios" element={<GetAllUsers />} />
+      <Route path="/traer-Usuario/:id" element={<GetUserId />} />
+      <Route path="/crear-Usuarios" element={<Form />} />
+      <Route path="/actualizar-Clave/:id" element={<UpdatePassword />} />
+    </Routes>
+
+    </BrowserRouter>
+  )
 }
 
-export default App;
+export default App
