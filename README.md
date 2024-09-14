@@ -38,15 +38,25 @@ COMO CONFIGURAR Y EJECUTAR LA APLICACION
     (Trabajo\Prueba_tecnica, npm install y npm start)
 
 NAME      EMAIL                      PASSWORD
+
 User 1	user@gmail1.com	$2b$10$S5UU1wGSOUa4/kfF2QLIYOfgXOxUw1AZUXM1LlGrSYz66iLIG2o/.
+
 User 2	user@gmail2.com	$2b$10$DheC15aXIz0D.BktFRCK5eXI9m/r5yw/8r5O6krGHjNPFHC9QEE1a
+
 User 3	user@gmail3.com	$2b$10$luWq2661JgGnigVcDUmnq.urTru17WptxmRWYA7dGmLmA8NWAYrpm
+
 User 4	user@gmail4.com	$2b$10$jcNhHdoWB2seqDbY8J8cTux4wh/KalN4agzOumN.rwugYUhNRdSpe
+
 User 5	user@gmail5.com	$2b$10$GZ6d2.ZGlqFcoxkYtGxXFODaNjOgbx3T/Xy9nG8xfRVw5VALYWnTG
+
 User 6	user@gmail6.com	$2b$10$epZggYxpJ7QVfktbdhO3TOOjT79bzDjmCffXjQ/xv8uZuoLprKnn.
+
 User 7	user@gmail7.com	$2b$10$BEiri8W10uGvfBISGxMERuBqdvf4Hk1ApdZpAotiyTuoD9uJo/q.m
+
 User 8	user@gmail8.com	$2b$10$OZpg/3y1ciYUW3NFW01XIuUKzdkhUKdoayzCDfZsnpYhWtzbJ98FO
+
 User 9	user@gmail9.com	$2b$10$KEpN1q9162hkK/62U/rOsuhfoHBo8opCmHBZj9T7z3o7vLKlVSs82
+
 User 10	user@gmail10.com$2b$10$NzCltZYwXYfvKmvlSXdDU.UL7JA2XNMcGjasPDCZsTOdyQ6r8mJL2
 
 TODOS SON ADMIN
