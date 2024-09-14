@@ -5,7 +5,7 @@ COMO CONFIGURAR Y EJECUTAR LA APLICACION
 
     Copia el link del repositorio github, luego en la terminal junto con 
     
-    git clone con el repositorio lo pegan,
+    git clone https://github.com/jebv210/Prueba_tecnica.git con el repositorio lo pegan,
 
     luego acceden a la carpeta en donde la dejaron (La carpeta principal se llamara "PRUEBA_TECNICA"), 
     dentro de esa carpeta van a estar otras dos, una llamada "Backend" y otra llamada "frontend_pt".
